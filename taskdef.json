@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "webapp",
-            "image": "webapp",
+            "image": "334194130763.dkr.ecr.us-east-1.amazonaws.com/webapp",
             "essential": true,
             "portMappings": [
                 {
