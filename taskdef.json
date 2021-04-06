@@ -2,8 +2,8 @@
     "executionRoleArn": "arn:aws:iam::334194130763:role/ecsTaskExecutionRole",
     "containerDefinitions": [
         {
-            "name": "webapp",
-            "image": "334194130763.dkr.ecr.us-east-1.amazonaws.com/webapp",
+            "name": "sample-website",
+            "image": "<IMAGE1_NAME>",
             "essential": true,
             "portMappings": [
                 {
