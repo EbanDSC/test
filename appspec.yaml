@@ -5,12 +5,12 @@ Resources:
       Properties:
         TaskDefinition: "<TASK_DEFINITION>"
         LoadBalancerInfo:
-          ContainerName: "webapp"
+          ContainerName: "sample-website"
           ContainerPort: 80
 # Optional properties
-        PlatformVersion: "1.3.0"
+        PlatformVersion: "LATEST"
         NetworkConfiguration:
-          AwsvpcConfiguration:
-            Subnets: ["subnet-08253ca22f04bbfba","subnet-0364dea17b088aad0","subnet-048d19a97fbea0857"]
-            SecurityGroups: ["sg-0d8661f27abeab2f4"]
-            AssignPublicIp: "DISABLED"
+            AwsvpcConfiguration:
+              Subnets: ["subnet-0364dea17b088aad0", "subnet-0e07a404d5a223aed","subnet-048d19a97fbea0857"]
+              SecurityGroups: ["sg-0d8661f27abeab2f4"]
+              AssignPublicIp: "DISABLED"
